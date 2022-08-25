@@ -45,7 +45,7 @@ function displayPhotos() {
     setAttributes(img, {
       src: photo.urls.regular,
       alt: photo.alt_description,
-      title: photo.alt_description,
+      title: photo.description,
     });
     // Event Listener, check when each is finished loading
     img.addEventListener('load', imageLoaded);
