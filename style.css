@@ -18,6 +18,22 @@ h1 {
   letter-spacing: 5px;
 }
 
+.social img {
+  width: 30px;
+}
+
+.social {
+  margin: 10px 30%;
+}
+
+.Desc {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.socialIconsContainer {
+  margin: 0px 40%;
+}
 /* Loader */
 .loader {
   position: fixed;
